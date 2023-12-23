@@ -1,0 +1,56 @@
+.anchor1 {
+    color: red;
+}
+
+.anchor1:hover {
+    background-color: blue;
+    color: red;
+    transition: 1s ease-in;
+}
+
+.anchor2:link {
+    color: green;
+}
+
+.anchor3:visited {
+    background-color: aqua;
+}
+
+.anchor4 {
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.anchor4:active {
+    color: chartreuse;
+    padding: 10px;
+    transition: 0.2s ease-in;
+}
+
+.btn_div {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    padding: 40px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    position: relative;
+    right: 6px;
+    bottom: 2px;
+    box-shadow: -20px 10px 5px 2px black;
+}
+
+button:hover {
+    transition: 0.2s;
+}
+
+button:active {
+    background-color: rgb(8, 88, 8);
+    position: static;
+}

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+div a {
+    width: 60%;
+}
+
+a[target]{
+    background-color: red;
+}
+
+a[target="_blank"]{
+    background-color: green;
+}
+
+a[title~="first"]{
+    background-color: yellow;
+}
+
+a[class|="top"]{
+    background-color: coral;
+}

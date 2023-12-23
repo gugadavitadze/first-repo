@@ -1,0 +1,63 @@
+ body {
+    background-color: lightblue
+}
+
+.cube1 {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+
+.cube2 {
+    background-color: green ;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    /* top, bottom, left, right */
+    left: 25px;
+    bottom: 25px;
+
+}
+
+.cube3 {
+    background-color:blue;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    /* top, bottom, left, right */
+    left: 50px;
+    bottom: 50px;
+}
+
+.cube4{
+    
+    background-color :violet;
+    height: 50px;
+    width: 50px;
+    /* fixed */
+    position: fixed;
+    z-index: -1;
+}
+.div1 {
+    background-color: red;
+    width: 150px;
+    position: relative;
+}
+
+
+.sticky {
+    background-color: aquamarine;
+    position: sticky;
+}
+
+.garediv {
+    display: flex;
+    flex-direction: row;  /*flex direction gamoiyeneba mxolod shvil elementze */
+    flex-wrap: wrap;
+}
+
+.garediv div {
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+}

@@ -1,0 +1,46 @@
+.gare_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 1000px;
+}
+
+.satauri {
+    flex-direction: column;
+}
+
+.input_name {
+    display: flex;
+    flex-direction: column;
+}
+
+.email_input {
+    display: flex;
+    flex-direction: column;
+}
+
+.input_age {
+    display: flex;
+    flex-direction: column;
+}
+
+.input_button {
+    
+}
+
+.mtavari_div {
+    background-color: aquamarine;
+    width: 700px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+}
+
+.square {
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+    background-color: white;
+}

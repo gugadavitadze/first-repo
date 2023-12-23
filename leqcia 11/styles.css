@@ -1,0 +1,28 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tribute_page_header {
+    text-align: center;
+}
+main {
+display: flex;
+align-content: center;
+flex-direction: column;
+}
+.img_figure {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+.life_timeline {
+    background-color: lightcyan;
+}
+.life_timeline_header {
+    margin-left: 30px;
+}
+.gandi_quote {
+    border-left: 3px solid red;
+    margin: 100px 50px 0px;
+    /* UP RIGHT-LEFT DOWN */
+    /* TU OTXI PARAMETRIA MASHIN UP RIGHT DOWN LEFT */
+}

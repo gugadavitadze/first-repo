@@ -1,0 +1,62 @@
+.lorem {
+    text-align: center;
+    text-decoration-line:overline;
+}
+
+h2 {
+    text-align: end;
+    /* direction: rtl;
+    unicode-bidi: bidi-override; teqstis shemotrialeba */
+}
+
+h3 {
+    text-align: justify;
+    text-align-last: center;
+}
+
+.overline {
+    text-decoration-line:overline;
+    text-align: center;
+}
+
+.line-through {
+    text-decoration-line: line-through;
+    text-align: center;
+}
+
+.under-line {
+    text-decoration-line: underline;
+    text-decoration-color: blueviolet;  
+    text-decoration-thickness: 10px;
+    text-decoration-style: dotted;
+    text-align: center;
+}
+
+.a-link {
+    text-align: center;
+}
+
+.a-test {
+    text-decoration-line:none;
+}
+
+.abzaci {
+    text-indent: 20px;
+    /* text-transform: capitalize; yvela sityvis pirveli aso aris didi asoti gawerili */
+}
+
+.test1 p {
+    background-color: red;
+}
+
+.btn-hover {
+    background-color :aqua;
+    width: 100px;
+    height: 200px;
+}
+
+.btn-hover:hover {
+    background-color: red;
+    width: 200px;
+    height: 300px;
+}

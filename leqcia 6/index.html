@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leqcia 11/7/2023 HTML forms</title>
+</head>
+    <body>
+        <form>
+        <input type="text">
+        <br>
+        <input type="text" required>
+        <br><br><hr>
+        <input 
+            name="saxeli,gvari"
+            type="text" 
+            minlength="2" 
+            maxlength="10" 
+            size="10"
+            placeholder="სახელი">
+            <label for="saxeli,gvari">სახელი</label>
+            <br>
+
+
+            <input type="radio"><br><br><br>
+        
+            <h2>which transport you have</h2>
+            <input type="checkbox" name="vehicle 2" value="car">
+            <label for="vehicle 2">i have a car</label>
+            <br>
+            <input type="checkbox" name="vehicle 3" value="plane">
+            <label for="vehicle 3">i have a plane</label>
+            <br>
+            <input type="checkbox" name="vehicle 4" value="car">
+            <label for="vehicle 4 ">i have a motobike</label>
+        </form>
+        <br><br><br>
+
+            <h2>buttons</h2>
+                <form>
+                    <label for="saxeli">სახელი</label>
+                    <br>
+                    <input type="სახელი" name="saxeli">
+                    <br>
+                    <label for="gvari">გვარი</label>
+                    <br>
+                    <input type="გვარი" name="gvari">
+                    <br><br>
+                    <button type="reset" value="reset">reset</button>
+                    <br><br>
+                </form>
+                    <form>
+                        <input type="color" value="#ff0000"><br><br>
+                        <h2>თარიღი</h2>
+                        <input type="date" value="2018-07-22" 
+                        min="2007-04-15" 
+                        max="2023-11-08">
+                    </form>
+                    <br><br><br>
+                        <h3>თარიღი და დრო </h3>
+                        <form>
+                            <input type="datetime-local" value="2015-06-15T12:30" min="2014-06-15T00:00">
+                        </form><br><br>
+
+                        <H3>ფაილის ატვირთვა</H3>
+                        <form>
+                            <label for="">ფაილის ატვირთვა</label>
+                            <br><br>
+                            <input type="file" name="" accept="image/*">
+                            <br>
+                            <p>audio-ს ატვირთვა</p>
+                            <input type="file" name="" accept="audio/*">
+                            <br>
+                            <p>ვიდეოს ატვირთვა</p>
+                            <input type="file" accept="video/*">
+                        </form>
+    </body>
+</html>        
